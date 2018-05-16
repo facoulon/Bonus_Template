@@ -1,0 +1,63 @@
+body {
+    margin: auto;
+}
+header {
+    background-color: black;
+    text-align: right;
+    padding: 1em;
+}
+header li{
+    display: inline;
+    padding-left: 3%;
+}
+header a {
+    color: grey;
+    text-decoration: none;
+}
+header a:hover {
+    color: white;
+}
+.current {
+    color: white;
+}
+header nav {
+    width: 80%;
+}
+main {
+margin: 2% 20%;
+}
+
+.Welcome {
+background-color: grey;
+padding: 5% 2%;
+}
+h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+.Welcome p {
+    font-family: sans-serif;
+    padding : 1% 0;
+}
+.callToAction {
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10%;
+    border: solid;
+    border-color: blue;
+    padding: 1%;
+}
+article {
+    display: inline-block;
+    
+
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+.card {
+    margin : 2% 0;
+
+}
