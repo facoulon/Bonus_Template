@@ -48,16 +48,66 @@ h1 {
     border-color: blue;
     padding: 1%;
 }
+.card1,.card2,.card3 {
+  /* margin-right: 5%; */
+}
+
+.card {
+    width: 100%;
+    text-align: justify;
+}
+
+/* /////////////////////////* SUPER IMPORTANT ///////////////////////////////////*/
+
+
+.card:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+
 article {
     display: inline-block;
-    
+    text-align: justify;
+    margin-top: 2%;
+    width: 22%;
+    border: solid 1px;
+    border-color: rgba(78, 78, 78, 0.46);
+
 
 }
 img {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+
 }
-.card {
-    margin : 2% 0;
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 1em auto;
+  font-size: 1.5em;
+}
+
+article p {
+  font-family: sans-serif;
+  text-align: center;
+    border-bottom: solid 1px;
+    border-color: rgba(78, 78, 78, 0.46);
+    padding-bottom: 1em;
+}
+
+article button {
+  display: block;
+  margin: 1em auto;
+  background-color: blue;
+  width: 60%;
+  border-style: solid;
+  border-color: blue;
+  font-size: 1.10em;
+  padding: 5px;
+  border-radius: 8%;
+  color: white;
 
 }
